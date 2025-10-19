@@ -45,7 +45,7 @@
 
         sym {
             bindings = <
-&trans  &kp LS(EXCL)   &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                    &trans         &kp KP_NUMBER_7            &kp KP_NUMBER_8            &kp KP_NUMBER_9        &kp END                &kp HOME
+&trans  &kp LS(EXCL)   &kp LS(AT)    &kp LS(POUND)  &kp LS(DLLR)  &kp LS(PRCNT)                    &secret        &kp KP_NUMBER_7            &kp KP_NUMBER_8            &kp KP_NUMBER_9        &kp END                &kp HOME
 &trans  &trans         &trans        &trans         &trans        &trans                           &kp PAGE_UP    &mt RIGHT_GUI KP_NUMBER_4  &mt RIGHT_ALT KP_NUMBER_5  &mt RCTRL KP_NUMBER_6  &mt RSHFT KP_NUMBER_0  &kp KP_ENTER
 &trans  &kp LS(CARET)  &kp LS(AMPS)  &kp LS(STAR)   &kp LS(LPAR)  &kp LS(RPAR)   &trans    &trans  &kp PAGE_DOWN  &kp KP_NUMBER_1            &kp KP_NUMBER_2            &kp KP_NUMBER_3        &kp KP_DOT             &kp KP_NUMLOCK
                                                     &trans        &tog 3         &trans    &trans  &trans         &trans
