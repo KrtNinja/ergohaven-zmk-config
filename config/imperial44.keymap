@@ -10,7 +10,7 @@
         secret: secret {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp F &kp U &kp C &kp K &kp I &kp N &kp G &kp LS(R) &kp A &kp N &kp D &kp EXCL>;
+            bindings = <&kp F &kp U &kp C &kp K &kp I &kp N &kp G &kp LS(R) &kp A &kp N &kp D>;
             label = "SECRET";
         };
     };
@@ -23,7 +23,7 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
         };
     };
 
